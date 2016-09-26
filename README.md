@@ -11,6 +11,6 @@ goal: clean package assembly:single
 ```
 
 ###Jgeneric
-What are Generics? 
+* What are Generics? 
 Generics are used to create Generic Classes and Generic methods which can work with different Types(Classes).
 
