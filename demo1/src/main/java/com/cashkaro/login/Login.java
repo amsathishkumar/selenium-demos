@@ -14,6 +14,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.lang.reflect.Array;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.Time;
 import java.util.Iterator;
@@ -27,6 +28,8 @@ import javax.imageio.stream.ImageOutputStream;
 import junit.framework.Assert;
 import net.sourceforge.htmlunit.corejs.javascript.commonjs.module.provider.ParsedContentType;
 
+import java.net.URL;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -37,6 +40,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.asprise.ocr.Ocr;
 import com.cashkaro.join.JoinMail;
@@ -48,11 +53,18 @@ import org.sikuli.script.Region;
 import org.sikuli.script.TextRecognizer;
 import org.apache.commons.codec.binary.Base64;
 public class Login {
+	static boolean appium = true;
 	static WebDriver driver = initialDriver();
-
+	
 	public static void main(String[] args) throws InterruptedException {
+		
 		System.out.println("Hello Welcome to Demo!");
-
+        if (appium){
+        System.out.println("appium");
+        //	C:\\android-sdk\\tools\\uiautomatorviewer.bat
+         driver.findElement(By.id("com.sat.info:id/ids")).sendKeys("123");
+        }
+        else{
 		navigate("http://cashkaro.iamsavings.co.uk");
 		getOSBrowserDetails(driver);
 		
@@ -60,7 +72,7 @@ public class Login {
          sign_inmail("Auto5");
 		login_fb("amsathishkumar@gmail.com","XXXXXX","SathishkumarMuniappan");
 		
-
+        }
 	
 		closeDriver();
 
@@ -305,16 +317,40 @@ public class Login {
 	}
 
 	private static void navigate(String url) {
+		
 		driver.get(url);
 		driver.manage().window().maximize();
 	}
 
 	private static WebDriver initialDriver() {
+		WebDriver driver = null;
+	
+		
+		if (appium) {
+			//http://www.guru99.com/introduction-to-appium.html
+			DesiredCapabilities dc = new DesiredCapabilities();
+			dc.setCapability("BROWSER_NAME", "Android");
+			dc.setCapability("VERSION", "4.4.2");
+			dc.setCapability("deviceName", "33003a90a6e5226d");
+			dc.setCapability("platformName","Android");
+			dc.setCapability("appPackage","com.sat.info");
+			dc.setCapability("appActivity",".MainActivity");
+			try {
+				driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"),dc);
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		else{
 		FirefoxBinary binary = new FirefoxBinary(new File(
 				"C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"));
 		FirefoxProfile profile = new FirefoxProfile();
 
-		WebDriver driver = new FirefoxDriver(binary, profile);
+	   driver = new FirefoxDriver(binary, profile);
+		
+		}
+		
 		return driver;
 	}
 
