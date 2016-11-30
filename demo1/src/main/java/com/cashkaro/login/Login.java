@@ -62,7 +62,8 @@ public class Login {
         if (appium){
         System.out.println("appium");
         //	C:\\android-sdk\\tools\\uiautomatorviewer.bat
-         driver.findElement(By.id("com.sat.info:id/ids")).sendKeys("123");
+         driver.findElement(By.xpath("//android.widget.EditText")).sendKeys("123");
+         driver.findElement(By.id("com.sat.info:id/name")).sendKeys("sathish");
         }
         else{
 		navigate("http://cashkaro.iamsavings.co.uk");
@@ -330,8 +331,8 @@ public class Login {
 			//http://www.guru99.com/introduction-to-appium.html
 			DesiredCapabilities dc = new DesiredCapabilities();
 			dc.setCapability("BROWSER_NAME", "Android");
-			dc.setCapability("VERSION", "4.4.2");
-			dc.setCapability("deviceName", "33003a90a6e5226d");
+			dc.setCapability("VERSION", "4.3.0");
+			dc.setCapability("deviceName", "YT910RVLDJ");
 			dc.setCapability("platformName","Android");
 			dc.setCapability("appPackage","com.sat.info");
 			dc.setCapability("appActivity",".MainActivity");
