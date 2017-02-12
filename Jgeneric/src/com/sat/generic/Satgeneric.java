@@ -1,7 +1,7 @@
-package com.sat;
+package com.sat.generic;
 
 
-public class Satg <E> {
+public class Satgeneric <E> {
     private E t;
     public void add (E t) {
     	this.t=t;
@@ -14,11 +14,11 @@ public class Satg <E> {
     
 	public static void main(String[] args) {
 		
-        Satg <String> a = new Satg <String> ();
+        Satgeneric <String> a = new Satgeneric <String> ();
         a.add("sathish");
         System.out.print(a.get());
         
-        Satg <Integer> a1 = new Satg <Integer> ();
+        Satgeneric <Integer> a1 = new Satgeneric <Integer> ();
         a1.add(new Integer(10));
         System.out.print(a1.get());
         
