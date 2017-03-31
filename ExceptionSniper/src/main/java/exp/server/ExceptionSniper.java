@@ -39,7 +39,7 @@ public class ExceptionSniper {
 //		servicenodeip = reader.readLine();
 //		
 //		BufferedReader reader1 = new BufferedReader(new InputStreamReader(System.in));
-//		System.out.print("Enter you mail id (eg:smuniapp@cisco.com): ");
+//		System.out.print("Enter you mail id (eg:smuniapp@gmail.com): ");
 //		mailid=reader1.readLine();
 //		
 //		BufferedReader reader2 = new BufferedReader(new InputStreamReader(System.in));
@@ -92,7 +92,7 @@ public class ExceptionSniper {
 		String cmd;
 		String servip = servicenodeip;
 		String servuser = "root";
-		String servpwd = "2g3n3r!c";
+		String servpwd = "2gdddd";
 		System.out.println(servip);
 		esconn = SSH.createConnection(servip, servuser, servpwd);
 		essess = SSH.createSession(esconn, "vt100");
@@ -119,9 +119,9 @@ public class ExceptionSniper {
 			InetAddress address = InetAddress.getByName(servicenodeip);
 			if (!address.isReachable(3000)) {
 				System.out.println("Host with IP:" + address + " is not pingable");
-				sendmail("Host with IP:" + address + " is not pingable","smuniapp@cisco.com");
+				sendmail("Host with IP:" + address + " is not pingable","smuniapp@gmail.com");
 				System.out.println("Exception Snipper is Stopped...." + servicenodeip);
-				sendmail("Exception Snipper is Stopped....in " + servicenodeip,"smuniapp@cisco.com");
+				sendmail("Exception Snipper is Stopped....in " + servicenodeip,"smuniapp@gmail.com");
 				System.exit(2);
 			}
 
@@ -157,7 +157,7 @@ public class ExceptionSniper {
 				 
 System.out.println(msg);
 		
-sendmail(msg,"smuniapp@cisco.com");
+sendmail(msg,"smuniapp@gmail.com");
 
 
 
@@ -307,12 +307,12 @@ sendmail(msg,"smuniapp@cisco.com");
 	public static void sendmail(String str, String mailid) throws AddressException {
 
 		// Get the session object
-		String host = "outbound.cisco.com";// or IP address
+		String host = "outbound.sat.com";// or IP address
 		Properties properties = System.getProperties();
 		properties.setProperty("mail.smtp.host", host);
 
 		String[] to = mailid.split(",");
-		String from = "Kalam_Openstack@cisco.com";// change accordingly
+		String from = "Kalam_Openstack@sat.com";// change accordingly
 
 		javax.mail.Session session = javax.mail.Session.getDefaultInstance(properties);
 		InternetAddress[] toAddress = new InternetAddress[to.length];
