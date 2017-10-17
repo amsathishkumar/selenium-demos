@@ -1,0 +1,127 @@
+02-16 21:14:04.505 [10780] INFO  console         
+02-16 21:14:04.517 [10780] INFO  console         [0m[0m
+02-16 21:14:04.523 [10780] INFO  console         [0m  VFPS Server Test Suite[0m
+02-16 21:14:04.526 [10780] INFO  console         [0m    VFPS Server test[0m
+02-16 21:14:04.533 [10780] INFO  console             [31m  1) should test GPV for resetChannelList[0m
+02-16 21:15:54.479 [4912] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 10.143.26.167
+02-16 21:15:54.490 [4912] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-16 21:15:54.500 [4912] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-16 21:15:54.501 [4912] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-16 21:15:54.659 [4912] INFO  console         
+02-16 22:31:10.045 [9260] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.5
+02-16 22:31:10.058 [9260] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-16 22:31:10.069 [9260] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-16 22:31:10.071 [9260] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-16 22:31:10.335 [9260] INFO  console         
+02-16 22:39:56.996 [9272] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.5
+02-16 22:39:57.007 [9272] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-16 22:39:57.019 [9272] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-16 22:39:57.021 [9272] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-16 22:39:57.192 [9272] INFO  console         
+02-16 22:39:57.195 [9272] INFO  console         [0m[0m
+02-16 22:44:48.959 [8932] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.5
+02-16 22:44:48.971 [8932] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-16 22:44:48.982 [8932] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-16 22:44:48.984 [8932] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-16 22:49:25.182 [9316] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.5
+02-16 22:49:25.193 [9316] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-16 22:49:25.204 [9316] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-16 22:49:25.206 [9316] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-16 22:49:25.364 [9316] INFO  console         
+02-16 22:49:25.367 [9316] INFO  console         [0m[0m
+02-16 22:51:05.266 [11772] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.5
+02-16 22:51:05.278 [11772] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-16 22:51:05.290 [11772] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-16 22:51:05.292 [11772] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-16 22:51:05.464 [11772] INFO  console         
+02-16 22:51:05.467 [11772] INFO  console         [0m[0m
+02-16 23:43:04.496 [6468] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.100
+02-16 23:43:04.508 [6468] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-16 23:43:04.518 [6468] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-16 23:43:04.520 [6468] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-16 23:43:04.680 [6468] INFO  console         
+02-16 23:43:04.682 [6468] INFO  console         [0m[0m
+02-16 23:50:54.098 [7160] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.100
+02-16 23:50:54.109 [7160] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-16 23:50:54.120 [7160] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-16 23:50:54.122 [7160] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-16 23:50:54.286 [7160] INFO  console         
+02-16 23:50:54.288 [7160] INFO  console         [0m[0m
+02-16 23:53:57.121 [10424] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.100
+02-16 23:53:57.133 [10424] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-16 23:53:57.144 [10424] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-16 23:53:57.145 [10424] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-16 23:53:57.301 [10424] INFO  console         
+02-16 23:53:57.304 [10424] INFO  console         [0m[0m
+02-17 00:02:36.807 [11464] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.100
+02-17 00:02:36.819 [11464] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-17 00:02:36.830 [11464] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-17 00:02:36.832 [11464] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-17 00:02:36.988 [11464] INFO  console         
+02-17 00:02:36.990 [11464] INFO  console         [0m[0m
+02-17 00:03:38.071 [11808] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.100
+02-17 00:03:38.120 [11808] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-17 00:03:38.131 [11808] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-17 00:03:38.133 [11808] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-17 00:03:38.822 [11808] INFO  console         
+02-17 00:03:38.825 [11808] INFO  console         [0m[0m
+02-17 00:04:34.063 [11684] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.100
+02-17 00:04:34.074 [11684] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-17 00:04:34.088 [11684] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-17 00:04:34.090 [11684] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-17 00:04:34.288 [11684] INFO  console         
+02-17 00:06:05.648 [6548] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.100
+02-17 00:06:05.659 [6548] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-17 00:06:05.670 [6548] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-17 00:06:05.672 [6548] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-17 00:06:05.832 [6548] INFO  console         
+02-17 00:06:05.834 [6548] INFO  console         [0m[0m
+02-17 00:06:59.920 [12244] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.100
+02-17 00:06:59.931 [12244] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-17 00:06:59.942 [12244] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-17 00:06:59.943 [12244] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-17 00:07:00.102 [12244] INFO  console         
+02-17 00:07:00.105 [12244] INFO  console         [0m[0m
+02-17 00:14:50.751 [3108] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.100
+02-17 00:14:50.762 [3108] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-17 00:14:50.773 [3108] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-17 00:14:50.774 [3108] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-17 00:14:50.934 [3108] INFO  console         
+02-17 00:14:50.936 [3108] INFO  console         [0m[0m
+02-17 00:15:36.615 [11408] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 192.168.1.100
+02-17 00:15:36.627 [11408] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+02-17 00:15:36.638 [11408] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+02-17 00:15:36.639 [11408] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+02-17 00:15:36.795 [11408] INFO  console         
+02-17 00:15:36.798 [11408] INFO  console         [0m[0m
+10-09 11:46:00.923 [8020] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 10.143.25.186
+10-09 11:46:00.926 [8020] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+10-09 11:46:00.927 [8020] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+10-09 11:46:00.927 [8020] DEBUG Mocha-Test      DEV: VMware Network Adapter VMnet1 Alias:  ADDRESS: 192.168.13.1
+10-09 11:46:00.927 [8020] DEBUG Mocha-Test      DEV: VMware Network Adapter VMnet8 Alias:  ADDRESS: 192.168.235.1
+10-09 11:46:00.927 [8020] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+10-09 11:59:44.491 [11328] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 10.143.25.186
+10-09 11:59:44.494 [11328] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+10-09 11:59:44.494 [11328] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+10-09 11:59:44.494 [11328] DEBUG Mocha-Test      DEV: VMware Network Adapter VMnet1 Alias:  ADDRESS: 192.168.13.1
+10-09 11:59:44.495 [11328] DEBUG Mocha-Test      DEV: VMware Network Adapter VMnet8 Alias:  ADDRESS: 192.168.235.1
+10-09 11:59:44.495 [11328] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+10-09 12:10:09.731 [11488] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 10.143.25.186
+10-09 12:10:09.734 [11488] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+10-09 12:10:09.734 [11488] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+10-09 12:10:09.735 [11488] DEBUG Mocha-Test      DEV: VMware Network Adapter VMnet1 Alias:  ADDRESS: 192.168.13.1
+10-09 12:10:09.735 [11488] DEBUG Mocha-Test      DEV: VMware Network Adapter VMnet8 Alias:  ADDRESS: 192.168.235.1
+10-09 12:10:09.735 [11488] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+10-09 14:08:40.878 [11540] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 10.143.25.186
+10-09 14:08:40.881 [11540] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+10-09 14:08:40.882 [11540] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+10-09 14:08:40.882 [11540] DEBUG Mocha-Test      DEV: VMware Network Adapter VMnet1 Alias:  ADDRESS: 192.168.13.1
+10-09 14:08:40.882 [11540] DEBUG Mocha-Test      DEV: VMware Network Adapter VMnet8 Alias:  ADDRESS: 192.168.235.1
+10-09 14:08:40.882 [11540] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
+10-09 14:08:40.917 [11540] INFO  console         
+10-09 14:21:12.294 [11672] DEBUG Mocha-Test      DEV: Wireless Network Connection Alias:  ADDRESS: 10.143.25.186
+10-09 14:21:12.297 [11672] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network Alias:  ADDRESS: 192.168.56.1
+10-09 14:21:12.297 [11672] DEBUG Mocha-Test      DEV: VirtualBox Host-Only Network #2 Alias:  ADDRESS: 192.168.99.1
+10-09 14:21:12.298 [11672] DEBUG Mocha-Test      DEV: VMware Network Adapter VMnet1 Alias:  ADDRESS: 192.168.13.1
+10-09 14:21:12.298 [11672] DEBUG Mocha-Test      DEV: VMware Network Adapter VMnet8 Alias:  ADDRESS: 192.168.235.1
+10-09 14:21:12.298 [11672] DEBUG Mocha-Test      DEV: Loopback Pseudo-Interface 1 Alias:  ADDRESS: 127.0.0.1
