@@ -9,8 +9,18 @@ public class SampleEnumRun {
 	for (SatsampleEnum senum : SatsampleEnum.values())
 	{
 		System.out.println(senum );
+		System.out.println(senum.get() );
+
 	}
 	 System.out.println(Season.WINTER);
-	 
+
+		for(SatCurrency coin: SatCurrency.values()){
+			   System.out.println("coin: " + coin);
+			   System.out.println(coin.getValue());
+			}
+
 	}
+
+
+
 }
