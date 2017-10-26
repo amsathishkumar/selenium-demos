@@ -11,8 +11,9 @@ public class SampleStack {
 		s.add("z");
 		s.push("sathish");
 		System.out.println(s.pop());
-		
-		
+		System.out.println(s.pop());
+
+
 
 	}
 
