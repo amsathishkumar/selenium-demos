@@ -10,6 +10,7 @@ public class ConstOverloading
    ConstOverloading(int rnum)
    {
       rollNum = rollNum+ rnum;
+      //has to be called first as first line
       this();
    }
    public int getRollNum() {
@@ -27,5 +28,5 @@ class TestDemo{
     }
 }
 
-//Exception in thread "main" java.lang.Error: Unresolved compilation 
+//Exception in thread "main" java.lang.Error: Unresolved compilation
 //problem:Constructor call must be the first statement in a constructor line 13
