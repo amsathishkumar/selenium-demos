@@ -39,8 +39,8 @@ class Test
         Hashtable<Integer, String> h = new Hashtable();
         v.addElement(1);
         v.addElement(2);
-        h.put(1,"geeks");
-        h.put(2,"4geeks");
+        h.put(1,"sat");
+        h.put(2,"kumar");
  
         // Array instance creation requires [], while Vector
         // and hastable require ()
