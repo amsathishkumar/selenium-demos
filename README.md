@@ -57,4 +57,8 @@ class Test
     }
 }
 
+OUTPUT
+1
+1
+sat
 ```
