@@ -62,3 +62,13 @@ OUTPUT
 1
 sat
 ```
+
+  Collection                Map
+         /     /    \      \            |
+        /      /      \     \           |
+     Set    List    Queue  Dequeue   SortedMap
+     /
+    /
+ SortedSet 
+ 
+ 
